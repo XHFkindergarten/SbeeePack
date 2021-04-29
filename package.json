@@ -1,0 +1,31 @@
+{
+  "name": "sbeepack",
+  "version": "1.0.0",
+  "description": "front end esm develop server",
+  "repository": "https://github.com/XHFkindergarten/sbeepack",
+  "author": "風魔小次郎",
+  "license": "MIT",
+  "type": "commonjs",
+  "types": "./lib/index.d.ts",
+  "main": "./lib/index.js",
+  "exports": "./lib/index.js",
+  "bin": {
+    "sb": "./index.bin.js",
+    "sbeepack": "./index.bin.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4",
+    "yargs-parser": "^20.2.7"
+  },
+  "dependencies": {
+    "@types/node": "^15.0.1",
+    "es-module-lexer": "^0.4.1",
+    "esbuild": "^0.11.15",
+    "esinstall": "^1.1.4",
+    "etag": "^1.8.1",
+    "fdir": "^5.0.0",
+    "find-up": "^5.0.0",
+    "kleur": "^4.1.4",
+    "mime-types": "^2.1.30"
+  }
+}
